@@ -36,7 +36,6 @@ class AgendaTest {
         assertTrue(agenda.exclui(0));
 assertEquals(0, agenda.getContatos().size());
     }
-
     @Test
 @DisplayName("Testando a exclusão de um contato passando uma posição inválida")
     void excluirPosicaoInvalida(){
